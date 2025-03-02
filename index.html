@@ -220,70 +220,53 @@
                 <a href="https://www.acm.org/publications/proceedings-template" target="_blank">LaTeX, Word</a>.
                 <br><br>
 
-<!--                We invite submissions of both <b>short and long papers</b> (4 pages and 8 pages respectively excluding-->
-<!--                references).-->
-                We will require at least one author of the accepted papers to register for the conference and encourage onsite oral presentations.
-                We plan to allow up to 20% of the accepted papers to be presented online due to uncertainties such as visas issues. <br>
-                Potential topics include but are not limited to: <br>
+                We invite submissions related to Robust IR, including (but not limited to): <br>
                 <ul>
                     <li><p style="margin-top: 0; margin-bottom: 0"><span style="font-size: 12pt;">
-                                <b>Redefining Interaction Paradigms in Information Retrieval:</b>
+                                <b>Theory</b>
 
-Generative AI enables a significant shift from the traditional query- response model to dynamic, user-centric interaction paradigms. Rather than providing static ranked lists, IR systems powered by generative AI can facilitate multi-turn conversations and adapt to evolving user needs. This segment of the workshop will focus on:<br>
+                        • Game theory: Modeling strategic interactions as games, designing mechanisms to mitigate adversarial behaviors, and understanding the implications of these strategies for robust system design.<br>
 
+                        • Competitive search: Analyzing how competition influences the ecosystem and exploring mechanisms to promote desired properties in these contexts such as robustness and fairness. <br>
 
-                        • Designing adaptive IR systems capable of responding to user contexts and intents in real time.<br>
-
-                        • Integrating multi-modal capabilities to combine text, visuals, and audio in retrieval processes.<br>
-
-                        • Promoting user-centered designs that enhance accessibility, in- clusivity, and engagement.<br>
-
-                        The discussions aim to establish innovative design principles for the next generation of IR systems.
+                        • Probability ranking principle: Investigating the assumptions of PRP and their adaptation to different adversarial scenarios.<br>
                             </span></p></li>
 
                     <li><p style="margin-top: 0; margin-bottom: 0"><span style="font-size: 12pt;">
-                                <b>Addressing Challenges in Trust, Fairness, and Transparency.</b>
-                        The integration of generative AI introduces new challenges related to ethical and responsible use. To ensure the effectiveness and ac- ceptability of these systems, this section will address key concerns, including:<br>
-
-                        • Mitigating biases to ensure fairness and inclusivity in system outputs.<br>
-                        • Enhancing transparency by explaining how generative models produce their results.<br>
-                        • Developing accountability frameworks to address errors, inaccu- racies, and unintended consequences.<br>
-
-                        This part of the workshop will guide researchers in building systems that are not only innovative but also ethical and trustworthy.
+                                <b>Evaluation method</b>
+                        • Specific evaluation: Robustness evaluation for specific robustness types (e.g., adversarial, OOD robustness), scenarios (e.g., corpus updating, queries with typos), and IR models (e.g., sparse, dense, and generative retrieval models).<br>
+                        • General evaluation: Using an evaluation metric to comprehensively cover as many robustness scenarios as possible.<br>
+                        • Diverse evaluation tools: Developing new evaluation forms, including new evaluation functions, LLMs, and human evaluations, for comprehensive robustness comparisons.<br>
+                        • Benchmarks of robustness: Discussion of existing robustness datasets and proposing new benchmark tasks to address diverse robustness categories and requirements.<br>
                             </span></p></li>
 
 
                     <li><p style="margin-top: 0; margin-bottom: 0"><span style="font-size: 12pt;">
-                                <b> Advancing Metrics and Evaluation Frameworks.</b>
-                        Traditional IR evaluation metrics, such as precision and recall, are insufficient to capture the nuanced and conversational capabilities of generative AI systems. This section will focus on the development of new evaluation methods tailored to:<br>
-
-                        • Assessing conversational quality, coherence, and adaptability in multi-turn interactions.<br>
-                        • Measuring user satisfaction and long-term engagement with interactive IR systems.<br>
-                        • Evaluating task success in complex, goal-oriented information- seeking scenarios.<br>
-                        By refining evaluation frameworks, this segment aims to ensure that the effectiveness of generative AI-enhanced IR systems can be rigorously assessed and continuously improved.<br>
+                                <b> Method </b>
+                        • Adversarial attack & defense: Investigating adversarial vulnerabilities in IR models and developing defenses against malicious attacks like data poisoning and adversarial document generation.<br>
+                        • Zero/few shot IR: Using zero-shot or few-shot learning, transfer learning, and large-scale pre-trained models to improve cross-domain and task generalization.<br>
+                        • Balancing robustness and effectiveness: Exploring enhancing robustness without compromising effectiveness.<br>
+                        • Long-term learning: Explores continual learning in IR to enhance stability.<br>
+                        • Noise Resistance: Making IR systems resistant to noise in queries, documents, or training data, such as typo handling, semantic noise filtering, and processing incomplete or corrupted inputs.<br>
+                        • Enhancing RAG Robustness: Improving RAG pipeline robustness by reducing error propagation, ensuring consistency between retrieved documents and generated content, and enhancing output reliability under uncertain conditions.<br>
                             </span></p></li>
 
+                    <li><p style="margin-top: 0; margin-bottom: 0"><span style="font-size: 12pt;">
+                                <b>Application</b>
+                        • Robust search engines: Deploying robustness enhancement methods in resource- and condition-constrained search engines.<br>
+                        • Robust recommendation systems: Robustness for recommendation systems, addressing sparse user data, cold-start issues, adversarial manipulation, and dynamic user preferences.<br>
+                        • Data-specific scenarios: Robustness in specialized data retrieval, including scientific literature, medical documents, legal data, and long-form or multi-modal documents.<br>
+                        • Federated and distributed IR systems: Robustness for distributed IR using federated learning involves tackling inconsistent local data, implementing privacy-preserving strategies, and improving communication efficiency across distributed nodes.<br>    
+                    </span></p></li>
 
+                    <li><p style="margin-top: 0; margin-bottom: 0"><span style="font-size: 12pt;">
+                                <b>Society Impact</b>
+                        • Human behaviors that affect robustness: Understand how user behaviors like query biases, click feedback loops, and manipulated web content affect IR system robustness.<br>
+                        • Robustness and Ethics: Addressing ethical concerns by ensuring fairness, minimizing algorithmic biases, and maintaining transparency. Ensuring robust models do not disproportionately affect certain user groups or perpetuate societal inequalities.<br>
+                        • Explainability and truthfulness: Discuss the impact of IR model explainability and information truthfulness on users.<br>
+                            </span></p></li>
 
-<!--                    <li><p style="margin-top: 0; margin-bottom: 0"><span style="font-size: 12pt;">-->
-<!--                                <b>Robustness in Multi-Modal Systems:</b>-->
-<!--                                Methods to improve resilience against distribution shifts, adversarial attacks, and noise across modalities.-->
-<!--                            </span></p></li>-->
-
-<!--                    <li><p style="margin-top: 0; margin-bottom: 0"><span style="font-size: 12pt;">-->
-<!--                                <b>Multi-Modal Class Discovery:</b>-->
-<!--                                Techniques for identifying new classes across different modalities (e.g., visual, text, audio, touch).-->
-<!--                            </span></p></li>-->
-
-<!--                    <li><p style="margin-top: 0; margin-bottom: 0"><span style="font-size: 12pt;">-->
-<!--                                <b>Continual and Federated Learning for Multi-Modal Data:</b>-->
-<!--                                Innovative techniques that support ongoing learning and adaptation in decentralized environments.-->
-<!--                            </span></p></li>-->
-
-<!--                    <li><p style="margin-top: 0; margin-bottom: 0"><span style="font-size: 12pt;">-->
-<!--                                <b>Application-Focused Contributions:</b>-->
-<!--                                Research that showcases specific applications, such as autonomous navigation systems in urban environments that leverage multi-modal data for enhanced decision-making.-->
-<!--                            </span></p></li>-->
+                    
                 </ul>
 
 
